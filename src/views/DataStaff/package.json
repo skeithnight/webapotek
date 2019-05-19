@@ -1,0 +1,6 @@
+{
+  "name": "DataStaff",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DataStaff.js"
+}

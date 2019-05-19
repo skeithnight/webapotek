@@ -1,0 +1,6 @@
+{
+  "name": "DataTransaksi",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DataTransaksi.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Obat",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Obat.js"
+}

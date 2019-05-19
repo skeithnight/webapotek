@@ -1,0 +1,6 @@
+{
+  "name": "DataPengguna",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DataPengguna.js"
+}

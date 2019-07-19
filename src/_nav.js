@@ -26,8 +26,8 @@ export default {
       icon: 'icon-notebook',
     },
     {
-      name: 'Data Pengguna',
-      url: '/pengguna',
+      name: 'Data Customer',
+      url: '/customer',
       icon: 'icon-people',
     },
     {

@@ -4,10 +4,11 @@ import axios from 'axios';
 import logo from '../../../assets/img/brand/logo.png';
 import { Button, Card, CardBody, CardGroup, Col, Container, Form, Input, InputGroup, InputGroupAddon, InputGroupText, Row } from 'reactstrap';
 import Center from 'react-center';
+import { baseUrl } from "../../../data.js";
 
 class Login extends Component {
   handleClick(event) {
-    var apiBaseUrl = "http://35.188.204.202:8081/administrator/login";
+    var apiBaseUrl = baseUrl + "/administrator/login";
     var self = this;
     var reqbody = {
       "username": this.state.username,

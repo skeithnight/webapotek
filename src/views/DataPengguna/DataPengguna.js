@@ -199,7 +199,7 @@ class DataObat extends Component {
           sort: 'asc',
         },
         {
-          label: 'Nama Pengguna',
+          label: 'Nama',
           field: 'name',
           sort: 'asc',
           width: 270
@@ -238,7 +238,7 @@ class DataObat extends Component {
     return (
       <div className="animated fadeIn">
         <div className="card">
-          <div className="card-header">Data Pengguna</div>
+          <div className="card-header">Data Customer</div>
           <div className="card-body">
             <Row className="align-items-right">
               <Col sm xs="12" className="text-center mt-3">
@@ -252,10 +252,10 @@ class DataObat extends Component {
                     <Form action="" method="post" encType="multipart/form-data" className="form-horizontal">
                       <FormGroup row>
                         <Col md="3">
-                          <Label htmlFor="text-input">Nama Pengguna</Label>
+                          <Label htmlFor="text-input">Nama</Label>
                         </Col>
                         <Col xs="12" md="9">
-                          <Input type="text" id="nama" name="nama" placeholder="Nama Pengguna" value={this.state.nama}
+                          <Input type="text" id="nama" name="nama" placeholder="Nama" value={this.state.nama}
                             onChange={this.handleChange.bind(this)} />
                         </Col>
                       </FormGroup>

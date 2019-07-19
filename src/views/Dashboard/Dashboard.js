@@ -102,9 +102,9 @@ class Dashboard extends Component {
             <Card className="text-white bg-danger text-center">
               <CardBody>
                 <blockquote className="card-bodyquote">
-                  <h1>Data Pengguna</h1>
+                  <h1>Data Customer</h1>
                   <footer>
-                    <Link to="/pengguna">
+                    <Link to="/customer">
                       <Button block color="link">Detail</Button>
                     </Link>
                   </footer>

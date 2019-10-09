@@ -87,6 +87,7 @@ class DataObat extends Component {
       // We can still use the `.catch()` method since axios is promise-based
       .catch(error => this.setState({ error, isLoading: false }));
   }
+  
 
   handleRemove(){
 

@@ -88,8 +88,6 @@ class DataObat extends Component {
       .catch(error => this.setState({ error, isLoading: false }));
   }
 
-  
-
   handleRemove(){
 
     this.setState({ isLoadingRemoveForm: true });
